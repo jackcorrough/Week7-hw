@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey page 2</title>
+    <link rel="stylesheet" href="./css/stylesheet.css">
+  </head>
+  <body>
+    <h1>Survey Page 2</h1>
+    <form>
+      <label for="handedness">Are you right-handed or left-handed?</label><br>
+      <input type="radio" id="right" name="handedness" value="right">
+      <label for="right">Right-handed</label><br>
+      <input type="radio" id="left" name="handedness" value="left">
+      <label for="left">Left-handed</label><br><br>
+
+      <label for="favorite-sport">What is your favorite sport?</label><br>
+      <select id="favorite-sport" name="favorite-sport">
+        <option value="football">Football</option>
+        <option value="basketball">Basketball</option>
+        <option value="baseball">Baseball</option>
+        <option value="hockey">Hockey</option>
+      </select><br><br>
+
+      <label for="hobbies">Which of these hobbies do you enjoy?</label><br>
+      <input type="checkbox" id="reading" name="hobbies[]" value="reading">
+      <label for="reading">Reading</label><br>
+      <input type="checkbox" id="traveling" name="hobbies[]" value="traveling">
+      <label for="traveling">Traveling</label><br>
+      <input type="checkbox" id="cooking" name="hobbies[]" value="cooking">
+      <label for="cooking">Cooking</label><br><br>
+      <input type="button" value="Submit" onclick="window.location.href='./thank-you.html';">
+      Submit survey
+</button>
+</p>
+<p>page 2 of 2</p>
+    </form>
+  </body>
+</html>
